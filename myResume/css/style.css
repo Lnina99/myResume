@@ -1,0 +1,51 @@
+#resumecontainer {
+    background-color:  rgba(69, 62, 78, 0.5);
+    margin-top: 50px;
+    margin-left: 200px; 
+    margin-right: 450px;
+    padding-bottom: 1700px;
+    /* text-align: left; */
+}
+img{
+    float: left;
+    margin-top: 50px;
+    margin-left: 25px ;
+}
+
+/* .info h2{
+    text-indent: ;
+} */
+
+
+.info {
+    float: left;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+h1 {
+    font-style: italic;
+    font-weight: bold;
+}
+
+h2 {
+    font-weight: bold;
+}
+
+h3{
+    text-indent: 30px;
+    font-weight: lighter;
+    font-size: x-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+p{
+    font-weight: lighter;
+    font-size: x-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-indent: 30px;
+    line-height: 0%;
+}
+.last{
+    margin-left: 5em;
+}

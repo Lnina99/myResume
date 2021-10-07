@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="css/style.css">
+<head>
+    <title>MYRESUME</title>
+    <link rel="stylesheet" href="css/frame.css">
+    <script src="jquery/jquery.min.js"></script>
+   
+</head>
+<body>
+<div id="resumecontainer">
+    
+    <img src="an.jpeg" alt="My Picture" style="width:200px;height:200px;">
+        <div class=info>
+            <h1>PERSONAL INFORMATION</h1>
+            <!-- <u><h2>LYN NINA CORPIN</h2></u> -->
+            <p>Name: Lyn Nina Corpin </p>
+            <p>    Birthdate: April 16, 1999 </p>
+             <p>   Civil Status: Single </p>
+             <p>   Cell No.: 09772690764 </p>
+             <p>   Email: lynnina.corpin@evsu.edu.ph </p>
+             <p>   Address: Blk 1 Rafi Brgy. Tambulilid </p>
+             <p>   Ormoc City, Leyte </p>
+             <p>   6541 </p>    
+            
+<hr size="5" width="820px" color="gray">
+        
+
+      
+            <h1>EDUCATIONAL BACKGROUND</h1>
+                <u><h2><li>TERTIARY EDUCATION</h2></u></li>
+                <p>Eastern Visayas State University - Ormoc Campus </p>
+                 <p>   Bachelor of Science in Information Technology </p>
+                  <p>  4th Year Standing</p>
+                </h3>
+            
+                <u><h2><li>SECONDARY EDUCATION</h2></u></li>
+                <p>(Senior High School) <p>
+                <p>    ACLC Ormoc <p>
+                <p>    Computer Serving Services (2018) <p>
+                <p>    (Junior High School) <p>
+                <p>    Linao National High School (2016) <p>
+            
+
+                <u><h2><li>PRIMARY EDUCATION</h2></u></li>
+                <p>Tambulilid Elementary School (2012)</p>
+
+                <u><h2><li>SCHOLASTIC RECORD</h2></u></li>
+                <p>FHE-Free Higher Education</p>
+
+<hr size="4" width="100%" color="gray">
+
+            <h1>SKILLS</h1>
+                <h3><li>Photo or Video Editing</li>
+                <li>    Photoshop </li>
+                <li>    Web Designing </li></h3>
+
+                <div class="last"><br>
+                    <button id="hide" style="margin-left:15em">HIDE THE TEXT</button>
+                    <button id="show">SHOW THE TEXT</button>
+                    <p>My favorite food is SHRIMP unfortunately I have an allergy!</p>
+                </div>
+        </div>     
+    </div>
+</body>
+
+</html>
+
+<script>
+    $(document).ready(function(){
+        $("#hide").click(function(){
+            $("p").hide();
+
+        });
+        $("#show").click(function(){
+            $("p").show();
+        });
+
+    });
+
+
+
+
+ </script>
